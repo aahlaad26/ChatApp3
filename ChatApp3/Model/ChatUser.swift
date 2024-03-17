@@ -7,7 +7,7 @@
 
 import FirebaseFirestoreSwift
 
-struct User: Codable, Identifiable {
+struct ChatUser: Codable, Identifiable {
     @DocumentID var id: String?
     var uid, email, profileImageUrl: String
 }
